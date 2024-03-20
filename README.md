@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# GitHubFinder 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHubFinder is an application developed using React and Vite, with TypeScript, allowing users to search for GitHub profiles and display detailed information about those profiles, including location, number of followers, following, and the top 5 repositories with the most stars.
 
-Currently, two official plugins are available:
+![image](https://github.com/Luan-Neumann-Dev/GitHubFinder/assets/155394874/56d48d3d-287d-4001-85b5-1c271b406c74)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/Luan-Neumann-Dev/GitHubFinder/assets/155394874/5f05f6c3-64d1-4605-98c2-dbd5def5e329)
 
-## Expanding the ESLint configuration
+![image](https://github.com/Luan-Neumann-Dev/GitHubFinder/assets/155394874/e73e1789-e3c6-404f-8f53-3fed474bd7bf)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used 💼✨
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Vite
+- TypeScript
+- GitHub public API
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+GitHub profile search: Users can search for GitHub profiles by entering the username in the search bar.
+Display of detailed information: After the search, detailed information about the found profile is displayed, including location, number of followers, and following.
+Top 5 repositories: In addition to basic information, the top 5 repositories of the user with the most stars are displayed. 🌟
+
+## How to Run the Project
+
+To run the project locally, follow these instructions:
+
+1. Clone this repository on Visual Studio Code
+2. Navigate to the project folder: `cd GitHubFinder`
+3. Install project dependencies via the terminal: `npm install`
+4. Start the server: `npm run dev`
+5. Open your browser and go to `http://localhost:5173` to see the project in action! 🌟
+
+## Contribute!
+Liked the project? Want to make it even better? Contributions are always welcome! Feel free to send pull requests, report issues, or give suggestions for improvements. Together, let's make JobFinder the best place to find and post job listings. 💪🛠️
+
+<sub>This project was developed during the JavaScript course within the Hora de Codar community - Matheus Battisti.</sub>
