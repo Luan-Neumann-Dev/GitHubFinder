@@ -48,7 +48,7 @@ npm run dev
 5. Open your browser and go to `http://localhost:5173` to see the project in action! 🌟
 
 ## 💪 Contribute!
-Liked the project? Want to make it even better? Contributions are always welcome! Feel free to send pull requests, report issues, or give suggestions for improvements. Together, let's make JobFinder the best place to find and post job listings.
+Liked the project? Want to make it even better? Contributions are always welcome! Feel free to send pull requests, report issues, or give suggestions for improvements.
 
 <h2> 🙋 Author  </h2>
 <table>
